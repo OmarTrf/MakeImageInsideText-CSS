@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.banner{
+	background: #000;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner h1{
+	margin: 0;
+	color: transparent;
+	font-size: 180px;
+	background-image: url('../img1.jpg');
+	background-size: cover;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-o-background-clip: text;
+	transition: background-position 4s ease;
+}
+.banner h1:hover{
+	background-position: 0 80%;
+}
